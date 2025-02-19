@@ -135,14 +135,14 @@ nav {
 }
 
 #name {
-    font-size: 30px;
+    font-size: 40px;
     color: powderblue;
 }
 
 #element {
     font-size: 40px;
     font-weight: normal;
-    color: rgb(17, 97, 162);
+    color: rgb(33, 124, 198);
     line-height: 50px;
     gap: 20px;
     width: 80%;
@@ -152,8 +152,8 @@ nav {
 
 
 .left-sec img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 
     margin-left: 20px;
 
