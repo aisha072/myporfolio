@@ -88,7 +88,9 @@ nav {
     font-size: 18px;
     color: rgb(66, 176, 212);
 }
-
+#resumebtn :hover{
+    cursor: pointer;
+}
 
 
 
@@ -160,7 +162,8 @@ nav {
 hr {
     width: 90%;
     color: #193751;
-    font-size: 20px;
+    font-size: 10px;
+    opacity: .4;
 }
 
 #about-sec {
@@ -185,8 +188,9 @@ hr {
 }
 
 #about h1 {
-    font-size: 30px;
-    font-weight: 300;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .aboutme {
@@ -198,28 +202,38 @@ hr {
     letter-spacing: 3px;
     line-height: 20px;
     font-weight: normal;
+    background-color: rgb(13, 8, 80);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ 
 
 }
-
+.aboutme p{
+    color: white;
+}
 .my-img img {
-
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     border-radius: 50%;
 
 
 }
-.aboutme a button {
+#resume{
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(49, 169, 216);
     text-align: center;
-    margin-right: 100%;
+ 
+    padding: 8px;
+
 }
 
-#about-sec a{
-    text-decoration: none;
-}
+
 /* @media screen and (max-width: 640px) {
-    .skillsGrid{
+    .skills{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
@@ -231,8 +245,6 @@ hr {
     width: 75px;
   } */
 .skills {
-
-
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -248,7 +260,10 @@ hr {
     text-align: center;
     color: white;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+
 }
 
 .skills-imgsec {
@@ -256,12 +271,15 @@ hr {
     list-style: none;
     display: flex;
     flex-direction: row;
+    background-color: rgb(12, 12, 109);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 5px;
 
 }
 
 .skill-sec {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 30px;
@@ -279,9 +297,20 @@ hr {
     color: white;
 
 }
+#express img{
+    background-color: white;
+ 
+}
 
 .skills-intro p {
     font-size: 20px;
+}
+.skills-imgsec li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .skills-imgsec ul {
@@ -290,9 +319,8 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    text-align: justify;
-    border: 2px solid black;
-    color: rgb(0, 0, 0);
+
+    color: rgb(124, 203, 255);
     width: 30%;
     gap: 20px;
 
@@ -305,10 +333,15 @@ hr {
     gap: 20px;
 }
 
-.skills-imgsec ul:hover {
+.skills-imgsec li:hover {
     color: white;
     cursor: pointer;
+   
+ 
   
+}
+.skills-imgsec img:hover{
+    width: 60px;
 }
 
 #project {
@@ -318,6 +351,7 @@ hr {
     align-items: center;
     color: white;
 
+
 }
 
 
@@ -325,59 +359,49 @@ hr {
 #project-img {
     width: 600px;
     height: 400px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
 }
-#project ul{
+#btns{
     display: flex;
     flex-direction: row;
     list-style: none;
-    color: black;
     justify-content: space-evenly;
     align-items: center;
 
     
 }
-#project button{
+ #btns{    
+    gap: 30px;
+}
+#first-btn ,#sec-btn{
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    gap: 20px;
 }
+
 #project a{
     text-decoration: none;
 }
 #contact {
- 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
    color: whitesmoke;
     text-align: center;
 }
-.form{
-   margin: auto; 
-}
-#contact-form{
-    gap: 20px;
-    width: 400px;
-    height: 300px;
-    text-align: center;
+.Contact-btn {
     display: flex;
-    flex-direction: column;
-    color: white;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-  
-
+}
+.Contact-btn button{
+    gap: 20px;
 }
 
-#msg {
-    height: 50px;
-}
-
-footer {
-    width: 100%;
-    height: 100px;
-background-color:rgb(10, 10, 33);
-    color: whitesmoke;
-    text-align: center;
-    margin: auto;
-}
 
 /* nav ul {
     list-style: none;
