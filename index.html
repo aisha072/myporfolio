@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Delius&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+        <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons"></a>
     <title>My Portfilio</title>
 </head>
 
@@ -18,34 +19,37 @@
         <nav>
             <div class="left">
 
-                <a href="index.html">
+                <a id = "nav-logo" href="index.html">
                     <h3> Port <span style="color: white">Folio</span></h3>
                 </a>
 
-            </div>
+                  </div>
             <div class="right">
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="skills">Skills</a></li>
-                    <li><a href="projects">Projects</a></li>
-                    <li><a href="contact">Contact</a></li>
-                     <li><a id="resumebtn" href="resume">Resume</a></li>
-                    <li id="resumebtn"><a id="downloadLink" href='my resume.pdf' download='resume.pdf'
-                            style="display: none;"></a></li> 
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a id="resumebtn" href="#resume">Resume</a></li>
+                    <li><a id="downloadLink" href='my resume.pdf' download='my resume.pdf' style="display: none;"></a>
+                    </li>
 
                 </ul>
+                <!-- <button id="menu-bar" onclick="sidebar()">click</button> -->
 
             </div>
         </nav>
-        <section id="home">
-            <div class="left-sec">
-                <img src="./images/img.png" alt="image">
-            </div>
-            <div class="right-sec">
-                
+        <!-- nav bar completed -->
+         <section id="home">
+                <div class="left-sec">
+                 <img src="./images/img.png" alt="image">
+                 </div>
 
-                <div class="first">
+                  <div class="right-sec">
+
+
+                    <div class="first">
 
                     <p>
 
@@ -54,12 +58,11 @@
                     <h3>a passionate Web Engineer . </h3>
 
 
+                     </div>
+                   <span id="element"></span>
                 </div>
-                <span id="element"></span>
-            </div>
-
-        </section>
-
+            </section>
+      
 
         <hr>
         <section id="about-sec">
@@ -71,7 +74,7 @@
                         alt="img" width="300px">
 
                 </div>
-                <div class="aboutme">
+                 <div class="aboutme">
                     <h1>About Me</h1>
                     <p>
                         Hello! I'm Aisha, a web engineer with a passion for creating seamless digital experiences. I
@@ -146,12 +149,11 @@
 
             <img id="project-img" src="./images/website.png" alt="project-img">
             <ul id="btns">
-                <li><button 
-                    id="first-btn" onclick="linkaction()">Github</a></button></li>
+                <li><button id="first-btn" onclick="linkaction()">Github</a></button></li>
                 <li><button id="sec-btn" onclick="pagesaction()">Live</button></li>
             </ul>
-        </section>
-        <hr>
+         </section>
+          <hr>
         <section id="contact">
             <h2>Contact Me</h2>
             <div class="Contact-btn">
@@ -161,8 +163,8 @@
             </div>
             <p>&copy; 2025 Aisha. All rights reserved.</p>
         </section>
-     
-    </div>
+
+    
 
 
 

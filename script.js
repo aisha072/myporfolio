@@ -1,11 +1,5 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Thank you for your message!');
-});
-// let resume = document.getElementById("resume");
-// resume.addEventListener("click",function(){
-//   window.open= ("https://drive.google.com/file/d/1RXqLm2_jL_Mklq940t4TUMQJqrtg2M1h/view?usp=sharing",'_blank')
-// })
+
+
 function openResume() {
     // Open the resume URL in a new tab
     window.open('https://drive.google.com/file/d/1vADmWWsajglj-T3S3jqLxOuLVJer2Sdk/view?usp=sharing', '_blank');
@@ -20,7 +14,7 @@ function pagesaction() {
 }
 
 
-// script.js
+
 document.getElementById('resumebtn').addEventListener('click', function() {
     // Get the download link
     var downloadLink = document.getElementById('downloadLink');
@@ -40,3 +34,10 @@ function email(){
 function Linkedin(){
     window.open("https://www.linkedin.com/in/aisha-ghazi-708208317/","_blank")
 };
+// script.js
+function sidebar(){
+   const sidebar = document.querySelector(".right ul li");
+   sidebar.style.display= "flex"
+ 
+}
+  
