@@ -241,16 +241,17 @@ hr {
     background-image: linear-gradient(to top, #251366 0%, #12314b 100%);
 
 }
+
 .aboutme {
     width: 600px;
-    height: 300px; 
+    height: 300px;
     /* font-size: 0.8rem; */
     color: white;
     /* font-family: "Lato", serif; */
     box-shadow: #c7d1e8;
     letter-spacing: 5px;
     line-height: 30px;
-    font-weight: normal; 
+    font-weight: normal;
     /* background-color: rgb(13, 8, 80); */
     display: flex;
     flex-direction: column;
@@ -262,7 +263,8 @@ hr {
     /* box-shadow: rgba(158, 183, 211, 0.3) 0px 0px 0px 3px; */
 
 }
-.img-about{
+
+.img-about {
     background-color: rgb(9, 15, 73);
     display: flex;
     flex-direction: row;
@@ -272,14 +274,14 @@ hr {
     height: 90%;
 }
 
- .my-img img{
-     border-radius: 50%; 
+.my-img img {
+    border-radius: 50%;
     /* margin-left:
         50px;  */
     /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
     /* background-color: rgb(11, 30, 88); */
 
-} 
+}
 
 #resume {
     color: white;
@@ -389,8 +391,8 @@ hr {
 }
 
 .skills-imgsec li img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     gap: 20px;
     display: flex;
     flex-direction: row;
@@ -418,10 +420,11 @@ hr {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 100px;
+    grid-template-columns: 200px;
     text-align: center;
     margin: auto;
     padding: 5px;
+    gap: 20px;
 }
 
 .skills-imgsec li:hover {
@@ -453,7 +456,6 @@ hr {
     text-align: center;
     color: white;
 
-    font-size: 30px;
     margin-top: 20px;
     font-weight: 500;
 }
@@ -471,7 +473,7 @@ hr {
     width: 90%;
     height: 60%;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(226, 226, 226, 0.8) -6px -2px 16px 0px;
-
+    padding: 10px;
     margin: auto;
     background-color: #193751;
 
@@ -484,23 +486,21 @@ hr {
     height: 90%;
 
     background-color: rgb(13, 9, 71);
-
+    padding: 10px;
     border-radius: 2px;
     text-align: center;
 }
 
 .about-project p {
-    text-align: center;
+    text-align: start;
     margin: auto;
-    font-size: 0.8rem;
     color: white;
-    font-family: "Lato", serif;
     margin: auto;
-    letter-spacing: 2px;
-    line-height: 20px;
+    letter-spacing: 5px;
+    line-height: 30px;
     font-weight: normal;
     margin-top: 20px;
-    padding: 8px;
+
 }
 
 #project-img {
@@ -552,9 +552,11 @@ hr {
 #sec-btn {
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 20px;
     gap: 20px;
+    font-size: 1.5rem;
 }
+
 
 #project a {
     text-decoration: none;
