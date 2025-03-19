@@ -2,7 +2,7 @@
 
 function openResume() {
     // Open the resume URL in a new tab
-    window.open('https://drive.google.com/file/d/1vADmWWsajglj-T3S3jqLxOuLVJer2Sdk/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1Zin6kRTczZLLEEJWu7ID7W53baRjj-a6/view?usp=sharing', '_blank');
 }
 function linkaction() {
     // Open the resume URL in a new tab
